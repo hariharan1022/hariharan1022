@@ -1,6 +1,8 @@
 👋 Hey, I'm Hariharan
-🚀 Full-Stack Web Developer | Cloud & Cybersecurity Learner
 
+-----------------------------------------------------------------------
+
+🚀 Full-Stack Web Developer | Cloud & Cybersecurity Learner
 💻 Building modern, scalable web applications
 🌐 Passionate about frontend performance & backend logic
 ☁️ Exploring Cloud Computing & Ethical Hacking
