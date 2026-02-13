@@ -24,6 +24,25 @@
 
 -----------------------------------------------------------------------
 
+🛠️ Tech Stack
+💻 Languages
+
+JavaScript • SQL • Python (Basics) • HTML5 • CSS3
+
+🌐 Frontend
+
+React.js • Responsive Web Design • Modern UI
+
+⚙️ Backend & Database
+
+Node.js (Basics) • MongoDB • MySQL
+
+☁️ Tools
+
+Git • GitHub • VS Code • GitHub Pages • Netlify
+
+-----------------------------------------------------------------------
+
 🚀 Featured Projects
 🎵 Spotify Clone
 
@@ -81,25 +100,6 @@ Frontend + structured institutional web system.
 🔗 https://github.com/hariharan1022/tamilrockes
 
 Web-based project demonstrating structured UI implementation.
-
------------------------------------------------------------------------
-
-🛠️ Tech Stack
-💻 Languages
-
-JavaScript • SQL • Python (Basics) • HTML5 • CSS3
-
-🌐 Frontend
-
-React.js • Responsive Web Design • Modern UI
-
-⚙️ Backend & Database
-
-Node.js (Basics) • MongoDB • MySQL
-
-☁️ Tools
-
-Git • GitHub • VS Code • GitHub Pages • Netlify
 
 -----------------------------------------------------------------------
 
