@@ -1,103 +1,149 @@
 <a href="https://github.com/hariharan1022">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=S.%20Hariharan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Web%20Developer%20%7C%20Cloud%20%26%20Cybersecurity%20Learner&descAlignY=62&descSize=16" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=S.%20Hariharan&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=React%20Developer%20%7C%20UI%2FUX%20Focused%20%7C%20Full-Stack%20Builder&descAlignY=60&descSize=18" />
 </a>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=hariharan1022&label=Profile+Views&color=70a5fd&style=flat-square">
-    <img src="https://komarev.com/ghpvc/?username=hariharan1022&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views" />
+  <a href="https://komarev.com/ghpvc/?username=hariharan1022&label=Profile+Views&color=61DAFB&style=flat-square">
+    <img src="https://komarev.com/ghpvc/?username=hariharan1022&label=Profile+Views&color=61DAFB&style=flat-square" alt="Profile Views" />
   </a>
   <a href="https://www.linkedin.com/in/hariharan-s-92b566381">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:hariharanmahesh34@gmail.com">
-    <img src="https://img.shields.io/badge/Email-hariharanmahesh34%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   <a href="https://hariharan1022.github.io/hariharan_portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-38BDAE?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Site-61DAFB?style=flat-square&logo=githubpages&logoColor=black" />
+  </a>
+  <a href="https://www.instagram.com/hari_mahesh_sk">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hey+there!+I'm+Hariharan+%F0%9F%91%8B;Full-Stack+Web+Developer+%7C+React+%26+JS;Building+Scalable+%26+Secure+Web+Apps;Code.+Deploy.+Secure.+Scale.+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=const+dev+%3D+new+ReactDeveloper('Hariharan')%3B;Building+pixel-perfect+UI+%2F+UX+%F0%9F%8E%A8;React+%7C+JavaScript+%7C+Full-Stack+%F0%9F%9A%80;Code.+Deploy.+Secure.+Scale.+%E2%9A%9B%EF%B8%8F" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## ⚛️ About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-```javascript
-const hariharan = {
-  name:             "S. Hariharan",
-  location:         "Chennai, Tamil Nadu, India 🇮🇳",
-  role:             "Full-Stack Web Developer",
-  
-  stack: [
-    "JavaScript", "React.js", "Node.js",
-    "MongoDB", "MySQL", "HTML5", "CSS3",
-    "Python (Basics)", "SQL"
-  ],
+```jsx
+// Hariharan.jsx — v2025
 
-  currentlyLearning: [
-    "Cloud Computing ☁️",
-    "Ethical Hacking & Cybersecurity 🔐",
-    "System Design & Clean Architecture 🏗️",
-    "Backend Scalability with Node.js ⚙️"
-  ],
+import { useState, useEffect } from "react";
 
-  philosophy: {
-    build:    "Complete systems, not just features",
-    write:    "Clean & structured code always",
-    focus:    "Scalability + Security + Performance",
-    mindset:  "Never stop learning emerging tech"
-  },
+const Hariharan = () => {
+  const [focus]  = useState("React & UI/UX");
+  const [mode]   = useState("Full-Stack");
 
-  funFact:  "I built a Spotify Clone just to prove I could 🎵",
+  const profile = {
+    name:     "S. Hariharan",
+    location: "Chennai, Tamil Nadu 🇮🇳",
+    role:     "React Developer & UI/UX Enthusiast",
 
-  motto: () => "Code. Deploy. Secure. Scale. 🚀"
+    ui_ux: {
+      design:       ["Responsive Layouts", "Component Architecture"],
+      interaction:  ["Micro-animations", "Accessible UI", "Clean Design"],
+      tools:        ["Figma (learning)", "CSS3", "Tailwind CSS"],
+    },
+
+    react_ecosystem: [
+      "React.js",       // core ⚛️
+      "React Hooks",    // useState, useEffect, useRef
+      "React Router",   // client-side routing
+      "Context API",    // state management
+      "React Icons",    // icon library
+    ],
+
+    backend:  ["Node.js", "MongoDB", "MySQL", "REST APIs"],
+    learning: ["Next.js", "TypeScript", "Cloud ☁️", "Cybersecurity 🔐"],
+
+    philosophy: () => ({
+      think:  "Component-first design",
+      build:  "Reusable, scalable UI systems",
+      ship:   "Fast, accessible, beautiful products",
+    }),
+  };
+
+  return <Portfolio {...profile} motto="Code. Deploy. Secure. Scale. 🚀" />;
 };
+
+export default Hariharan;
 ```
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+## 🎨 UI / UX Design Philosophy
+
+<div align="center">
+
+| Principle | Approach |
+|-----------|----------|
+| 🧩 **Component-First** | Build reusable, isolated components for every UI element |
+| 📱 **Mobile-First** | Responsive design from 320px → desktop — always |
+| ⚡ **Performance** | Optimize renders, lazy loading, minimal re-renders |
+| ♿ **Accessibility** | Semantic HTML, ARIA labels, keyboard navigation |
+| ✨ **Micro-interactions** | Subtle animations that guide user attention & delight |
+| 🎯 **User Intent** | Design for the user's goal, not just aesthetics |
+
+</div>
+
+---
+
+## ⚛️ React & Frontend Stack
+
+**Core React**
+
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Hooks](https://img.shields.io/badge/React%20Hooks-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Context API](https://img.shields.io/badge/Context%20API-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JSX](https://img.shields.io/badge/JSX-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**UI / Styling**
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive%20Design-764ABC?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 **Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript%20ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-**Frameworks & Libraries**
+**Backend & Databases**
 
-![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Responsive Design](https://img.shields.io/badge/Responsive%20Web%20Design-38BDAE?style=flat-square&logo=css3&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-**Databases**
+**Tools & Deployment**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-**Cloud & Security** *(Learning)*
+**Learning Next**
 
-![Cloud Computing](https://img.shields.io/badge/Cloud%20Computing-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Ethical%20Hacking-BF91F3?style=flat-square&logo=hackthebox&logoColor=white)
-
-**Tools & Platforms**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=flat-square&logo=github&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
@@ -105,10 +151,10 @@ const hariharan = {
 
 <div align="center">
   <a href="https://github.com/hariharan1022">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hariharan1022&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
+    <img height="185em" src="https://github-readme-stats.vercel.app/api?username=hariharan1022&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=61dafb&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
   </a>
   <a href="https://github.com/hariharan1022">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hariharan1022&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
+    <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hariharan1022&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=61dafb&text_color=c9d1d9&langs_count=8&border_radius=10"/>
   </a>
 </div>
 
@@ -117,7 +163,7 @@ const hariharan = {
 ## 🔥 Streak Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=hariharan1022&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=hariharan1022&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=61DAFB&fire=BF91F3&currStreakLabel=61DAFB&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak" />
 </div>
 
 ---
@@ -125,7 +171,7 @@ const hariharan = {
 ## 📈 Activity Graph
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hariharan1022&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=hariharan1022&theme=tokyo-night&bg_color=0d1117&color=61dafb&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph" />
 </div>
 
 ---
@@ -138,51 +184,93 @@ const hariharan = {
 
 ---
 
-## 💼 Work Experience
-
-<details>
-  <summary><strong>🌐 Freelance / Independent Projects — Full-Stack Web Developer &nbsp;|&nbsp; 2023 – Present &nbsp;|&nbsp; Chennai, India</strong></summary>
-  <br/>
-
-  > `React.js` `JavaScript` `HTML5` `CSS3` `MongoDB` `MySQL` `Node.js` `GitHub Pages` `Netlify`
-
-  - Built and deployed **multiple production-grade websites** for real clients including nursing colleges, showcasing end-to-end ownership from design to deployment.
-  - Developed a **full-featured Spotify Clone** replicating core UI/UX interactions, demonstrating advanced frontend architecture with React.js.
-  - Created an **AI-Driven Public Health Chatbot** for disease awareness, combining frontend interactivity with intelligent conversational design.
-  - Consistently delivered projects on **GitHub Pages & Netlify**, mastering CI/CD workflows and clean version-controlled codebases.
-
-</details>
-
----
-
 ## 🚀 Featured Projects
+
+> All projects built with a **React-first, component-driven** approach — reusable UI, clean state management, and responsive design.
 
 <div align="center">
 
-| Project | Stack | Highlights |
-|--------|-------|------------|
-| [🎵 Spotify Clone](https://github.com/hariharan1022/Spotify-Clone) | `HTML5` `CSS3` `JavaScript` | Full UI recreation of Spotify — pixel-perfect layouts, responsive design, and interactive player controls |
-| [🤖 AI Public Health Chatbot](https://github.com/hariharan1022/Al-Driven-Public-Health-Chatbot-for-Disease-Awareness) | `JavaScript` `HTML5` `CSS3` | Disease-awareness chatbot with AI-driven responses, built to educate users on public health topics |
-| [🏥 Nursing College Website](https://github.com/hariharan1022/nursing) | `HTML5` `CSS3` `JavaScript` | Professional institutional website with responsive layout, multi-page navigation, and clean UI |
-| [🌐 Personal Portfolio](https://github.com/hariharan1022/hariharan_portfolio) | `HTML5` `CSS3` `JavaScript` | Live portfolio showcasing projects, skills, and contact — deployed at [hariharan1022.github.io](https://hariharan1022.github.io/hariharan_portfolio/) |
-| [🎬 TamilRockes Project](https://github.com/hariharan1022/tamilrockes) | `HTML5` `CSS3` `JavaScript` | Entertainment-focused web project with dynamic content layout and modern UI design |
+| Project | React Stack | UI/UX Highlights |
+|---------|------------|-----------------|
+| [🎵 Spotify Clone](https://github.com/hariharan1022/Spotify-Clone) | `React.js` `React Hooks` `CSS3` `JavaScript` | Pixel-perfect Spotify UI — reusable player components, dynamic playlist state, responsive layout |
+| [🤖 AI Health Chatbot](https://github.com/hariharan1022/Al-Driven-Public-Health-Chatbot-for-Disease-Awareness) | `React.js` `JavaScript` `CSS3` | Conversational UI with typed message components, real-time response rendering, clean chat interface |
+| [🏥 Nursing College Website](https://github.com/hariharan1022/nursing) | `HTML5` `CSS3` `JavaScript` | Mobile-first institutional site with multi-page navigation, accessible markup, and clean UX |
+| [🌐 Personal Portfolio](https://github.com/hariharan1022/hariharan_portfolio) | `React.js` `CSS3` `GitHub Pages` | Live portfolio with section-based component architecture — deployed & fully responsive |
+| [🏫 Mount Zion College](https://github.com/SanthoshU16/mount_zion_college_of_nursing) | `HTML5` `CSS3` `JavaScript` | Collaborative team build — cross-function UI with consistent design system |
+| [🎬 TamilRockes](https://github.com/hariharan1022/tamilrockes) | `HTML5` `CSS3` `JavaScript` | Entertainment-focused dynamic layout with card-based UI and modern visual design |
 
 </div>
 
 ---
 
-## 🏅 Achievements
+## ⚛️ React Component Showcase
+
+```jsx
+// A glimpse of how I think in React 👇
+
+// Reusable ProjectCard component — built for Portfolio
+const ProjectCard = ({ title, stack, liveUrl, repoUrl, description }) => {
+  const [hovered, setHovered] = useState(false);
+
+  return (
+    <div
+      className={`card ${hovered ? "card--elevated" : ""}`}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <h3 className="card__title">{title}</h3>
+      <p className="card__description">{description}</p>
+
+      <div className="card__stack">
+        {stack.map((tech) => (
+          <Badge key={tech} label={tech} />   // reusable Badge component
+        ))}
+      </div>
+
+      <div className="card__actions">
+        <Button href={liveUrl} variant="primary">Live Demo ↗</Button>
+        <Button href={repoUrl} variant="outline">GitHub →</Button>
+      </div>
+    </div>
+  );
+};
+
+// Philosophy: every UI element is a composable, reusable unit 🧩
+```
+
+---
+
+## 💼 Work Experience
+
+<details>
+  <summary><strong>⚛️ React Developer / Full-Stack Builder — Freelance & Independent Projects &nbsp;|&nbsp; 2023 – Present &nbsp;|&nbsp; Chennai, India</strong></summary>
+  <br/>
+
+  > `React.js` `React Hooks` `Context API` `JavaScript ES6+` `CSS3` `MongoDB` `MySQL` `Node.js` `Netlify` `GitHub Pages`
+
+  - Architected and shipped **5+ React-based projects** with component-driven design, hooks-based state management, and responsive layouts.
+  - Cloned Spotify's full UI in React — replicating **player state, dynamic playlists, and responsive sidebar** using custom hooks and CSS modules.
+  - Built an **AI-driven Health Chatbot** with React — real-time message rendering, typing indicators, and clean conversational UX.
+  - Delivered **institutional websites** for nursing colleges with accessible, mobile-first design and consistent UI components.
+  - Maintained clean git workflows with feature branching, commit conventions, and CI/CD via Netlify.
+
+</details>
+
+---
+
+## 🏅 Achievements & Highlights
 
 <div align="center">
 
-| 🏷️ | Achievement | Details |
-|----|-------------|---------|
-| 🚀 | **Production Deployments** | Multiple live projects hosted on GitHub Pages & Netlify |
-| 🤝 | **Open Source Collaboration** | Contributed to team project [Mount Zion College of Nursing](https://github.com/SanthoshU16/mount_zion_college_of_nursing) with cross-team coordination |
-| 🌐 | **Multi-Domain Full-Stack Projects** | Delivered projects spanning healthcare, entertainment, and AI domains |
-| 🤖 | **AI Integration** | Built an AI-Driven chatbot independently, combining NLP concepts with frontend delivery |
-| 🔐 | **Security-Minded Development** | Actively upskilling in Ethical Hacking & Cloud Security alongside development work |
-| 📚 | **Self-Driven Learner** | Continuously expanding skills in Cloud Computing, System Design & Cybersecurity |
+| Badge | Achievement | Details |
+|-------|-------------|---------|
+| ⚛️ | **React-First Developer** | All major projects built component-first with React.js |
+| 🎨 | **UI/UX Focused Builds** | Every project emphasises responsive, accessible, clean UI |
+| 🚀 | **Live Production Deployments** | Multiple live apps on GitHub Pages & Netlify |
+| 🤝 | **Open Source Contribution** | Collaborated on [Mount Zion Nursing](https://github.com/SanthoshU16/mount_zion_college_of_nursing) — team-coordinated UI |
+| 🤖 | **AI + React Integration** | Built AI chatbot with React front-end and conversational UX design |
+| 🔐 | **Security-Aware Dev** | Learning Ethical Hacking alongside development — security-first mindset |
+| 📈 | **Continuous Learner** | Actively progressing toward Next.js, TypeScript, and Cloud deployment |
 
 </div>
 
@@ -192,9 +280,9 @@ const hariharan = {
 
 <div align="center">
 
-| 🎓 Degree | 🏫 Institution | 📅 Year | 📍 Location |
-|-----------|---------------|---------|------------|
-| Full-Stack Web Development | Self-Directed & Online Learning | 2023 – Present | Chennai, India |
+| 🎓 Focus | 🏫 Path | 📅 Timeline | 📍 Base |
+|----------|---------|-------------|--------|
+| React & Full-Stack Web Dev | Self-Directed + Project-Based Learning | 2023 – Present | Chennai, India |
 
 </div>
 
@@ -202,13 +290,18 @@ const hariharan = {
 
 ## 🌱 Currently Learning
 
-```
-🔐 Cybersecurity & Ethical Hacking  →  Network Security, Penetration Testing, OWASP Top 10
-☁️ Cloud Computing                  →  AWS Fundamentals, Cloud Architecture, Serverless
-⚙️  Node.js & Backend               →  REST APIs, Express.js, Authentication, JWT
-🏗️  System Design                   →  Scalability, Microservices, Clean Architecture
-🗄️  Advanced Databases              →  Query Optimization, Indexing, Schema Design
-🐍 Python                           →  Scripting, Automation, Security Tools
+```jsx
+const learningRoadmap = {
+
+  "⚛️  Next.js"        : ["SSR / SSG", "App Router", "API Routes", "SEO Optimization"],
+  "🔷 TypeScript"      : ["Type Safety", "Interfaces", "Generics", "React + TS patterns"],
+  "🎨 Advanced CSS"    : ["Framer Motion", "CSS Grid Mastery", "Design Tokens"],
+  "☁️  Cloud"          : ["AWS Fundamentals", "Serverless Functions", "Deployment Pipelines"],
+  "🔐 Cybersecurity"   : ["OWASP Top 10", "Ethical Hacking", "Network Security Basics"],
+  "🏗️  System Design"  : ["Scalability", "Microservices", "Clean Architecture"],
+  "🗄️  Databases"      : ["Query Optimization", "Schema Design", "Redis Caching"],
+
+};
 ```
 
 ---
@@ -225,7 +318,7 @@ const hariharan = {
   </a>
   &nbsp;
   <a href="https://hariharan1022.github.io/hariharan_portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-38BDAE?style=for-the-badge&logo=githubpages&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-61DAFB?style=for-the-badge&logo=githubpages&logoColor=black" />
   </a>
   &nbsp;
   <a href="https://www.instagram.com/hari_mahesh_sk">
@@ -238,7 +331,7 @@ const hariharan = {
 </p>
 
 <p align="center">
-  <i>"Code. Deploy. Secure. Scale. 🚀"</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=%3CHariharan+%2F%3E+%7C+Code.+Deploy.+Secure.+Scale.+%F0%9F%9A%80" alt="Footer Quote" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=twinkling" />
