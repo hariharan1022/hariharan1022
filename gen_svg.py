@@ -1,34 +1,21 @@
 import json
 import random
-
-with open(r'C:\Users\HARIHARAN S\OneDrive\Desktop\read me\ascii_compact.json', 'r') as f:
-    ascii_data = json.load(f)
-
-ROWS = ascii_data['rows']
-COLS = ascii_data['cols']
-DATA = ascii_data['data']
+import base64
 
 W, H = 1180, 610
 LEFT_W = int(W * 0.38)
 RIGHT_W = W - LEFT_W
-FONT_SIZE = 8.5
-CHAR_W = FONT_SIZE * 0.6
-CHAR_H = FONT_SIZE * 1.05
-ASCII_W = COLS * CHAR_W
-ASCII_H = ROWS * CHAR_H
-AX = LEFT_W // 2 - ASCII_W // 2
-AY = H // 2 - ASCII_H // 2 + FONT_SIZE
 RX = LEFT_W + 40
+
+# Load founder photo as base64
+with open(r'C:\Users\HARIHARAN S\OneDrive\Desktop\read me\founder.jpeg', 'rb') as f:
+    PHOTO_B64 = base64.b64encode(f.read()).decode('utf-8')
+PHOTO_URI = f'data:image/jpeg;base64,{PHOTO_B64}'
 
 def esc(s):
     return s.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;').replace("'",'&apos;')
 
-def pick(b, p):
-    if b < 0.2: return p[0]
-    if b < 0.35: return p[2]
-    if b < 0.5: return p[1]
-    if b < 0.65: return p[4]
-    return p[3]
+
 
 # ── Defs ──
 def defs(dark):
@@ -99,27 +86,46 @@ def bg(dark):
     </g>
     <rect width="1180" height="610" rx="16" fill="url(#nz)" opacity="{nop}" style="pointer-events:none"/>'''
 
-# ── ASCII Portrait ──
-def ascii(dark):
-    p = ["#22D3EE","#67E8F9","#A78BFA","#E0F2FE","#60A5FA"] if dark else ["#0284C7","#0891B2","#1D4ED8","#0F172A","#2563EB"]
-    els = []
-    for y in range(ROWS):
-        row = DATA[y]['chars']
-        cl = DATA[y]['colors'].split(',')
-        delay = y / ROWS * 3.0
-        sp = []
-        for x in range(COLS):
-            ch = row[x]
-            if ch == ' ': sp.append(' '); continue
-            cs = cl[x] if x < len(cl) else '000000'
-            if cs == 't': sp.append(' '); continue
-            b = (int(cs[0:2],16)+int(cs[2:4],16)+int(cs[4:6],16))/(3*255)
-            c = pick(b, p)
-            sp.append(f'<tspan fill="{c}">{esc(ch)}</tspan>')
-        yp = AY + y * CHAR_H
-        els.append(f'    <text x="{AX:.1f}" y="{yp:.1f}" font-family="\'Courier New\',Consolas,monospace" font-size="{FONT_SIZE}" opacity="0">'
-            f'<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="{delay:.2f}s" fill="freeze"/>{"".join(sp)}</text>')
-    return '\n'.join(els)
+# ── Photo Portrait ──
+def photo_portrait(dark):
+    cx = LEFT_W // 2
+    cy = H // 2
+    r = 200  # circle radius
+    ring1 = "#7C3AED" if dark else "#2563EB"
+    ring2 = "#22D3EE" if dark else "#06B6D4"
+    glow_c = "rgba(124,58,237,0.25)" if dark else "rgba(37,99,235,0.2)"
+    return f'''    <defs>
+      <clipPath id="photoClip">
+        <circle cx="{cx}" cy="{cy}" r="{r}"/>
+      </clipPath>
+      <radialGradient id="photoGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="{ring1}" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="{ring1}" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="{ring1}"/>
+        <stop offset="100%" stop-color="{ring2}"/>
+      </linearGradient>
+    </defs>
+    <!-- Glow behind photo -->
+    <circle cx="{cx}" cy="{cy}" r="{r+40}" fill="url(#photoGlow)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.3s" fill="freeze"/>
+    </circle>
+    <!-- Spinning gradient ring -->
+    <circle cx="{cx}" cy="{cy}" r="{r+6}" fill="none" stroke="url(#ringGrad)" stroke-width="4" opacity="0" stroke-dasharray="60 300">
+      <animate attributeName="opacity" from="0" to="0.9" dur="0.6s" begin="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Static border ring -->
+    <circle cx="{cx}" cy="{cy}" r="{r+3}" fill="none" stroke="url(#ringGrad)" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.5" dur="0.6s" begin="0.4s" fill="freeze"/>
+    </circle>
+    <!-- Photo -->
+    <image href="{PHOTO_URI}" x="{cx-r}" y="{cy-r}" width="{r*2}" height="{r*2}"
+      clip-path="url(#photoClip)" preserveAspectRatio="xMidYMid slice"
+      opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.3s" fill="freeze"/>
+    </image>'''
 
 # ── Greeting ──
 def greet(dark):
@@ -274,8 +280,7 @@ def gen(dark):
 </g>
 
 <g>
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,-2;0,0;0,1;0,0" dur="6s" repeatCount="indefinite"/>
-{ascii(dark)}
+{photo_portrait(dark)}
 </g>
 
 <g>
