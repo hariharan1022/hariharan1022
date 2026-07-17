@@ -1,5 +1,23 @@
-<div align="center">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>README Preview</title>
+<style>
+  body { background:#0d1117; margin:0; padding:40px 20px; font-family: -apple-system, 'Segoe UI', Arial, sans-serif; }
+  .markdown-body { max-width: 900px; margin: 0 auto; color:#c9d1d9; }
+  table { border-collapse: collapse; width: 100%; }
+  td { border: none; padding: 6px; vertical-align: top; }
+  a { text-decoration:none; }
+  img, svg { max-width: 100%; }
+  h2, h3 { color:#f4f5f7; text-align:center; }
+  sub { color:#7c8098; display:block; text-align:center; }
+</style>
+</head>
+<body>
+<div class="markdown-body">
 
+<div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=Hariharan%20S&fontSize=60&fontColor=ffffff&fontAlignY=32&desc=Founder%20%40%20Skyrovix%20%7C%20Full%20Stack%20Engineer%20%7C%20React%20Developer&descAlignY=55&descSize=17&animation=fadeIn&color=0:BD00FF,50:FF2E97,100:05D9E8"/>
 
 <a href="https://github.com/hariharan1022">
@@ -17,17 +35,14 @@
 <img src="https://komarev.com/ghpvc/?username=hariharan1022&style=for-the-badge&color=BD00FF&labelColor=0a0e27&label=PROFILE+VIEWS" alt="Views"/>
 <img src="https://img.shields.io/github/followers/hariharan1022?style=for-the-badge&color=FF2E97&labelColor=0a0e27&label=FOLLOWERS" alt="Followers"/>
 <img src="https://img.shields.io/github/stars/hariharan1022?style=for-the-badge&color=05D9E8&labelColor=0a0e27&label=STARS" alt="Stars"/>
-
 </div>
 
 <br/>
 
-<!-- ============ BENTO ROW: TERMINAL + FOCUS RINGS ============ -->
 <table align="center">
 <tr>
 <td width="53%" valign="top">
-
-<svg width="100%" height="340" viewBox="0 0 440 340" style="max-width:440px">
+<svg width="440" height="340" viewBox="0 0 440 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="term-accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#BD00FF"><animate attributeName="stop-color" values="#BD00FF;#FF2E97;#05D9E8;#BD00FF" dur="6s" repeatCount="indefinite"/></stop>
@@ -36,7 +51,6 @@
   </defs>
   <rect x="1" y="1" width="438" height="338" rx="14" fill="#0a0e27" stroke="url(#term-accent)" stroke-width="1.5"/>
 
-  <!-- title bar -->
   <rect x="1" y="1" width="438" height="34" rx="14" fill="#12173a"/>
   <rect x="1" y="21" width="438" height="14" fill="#12173a"/>
   <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
@@ -44,7 +58,6 @@
   <circle cx="68" cy="18" r="6" fill="#27c93f"/>
   <text x="220" y="23" font-family="'Fira Code','Consolas',monospace" font-size="12" fill="#7c8098" text-anchor="middle">hariharan@skyrovix: ~</text>
 
-  <!-- terminal body -->
   <g font-family="'Fira Code','Consolas',monospace" font-size="13.5">
     <text x="20" y="66"><tspan fill="#05D9E8">$</tspan><tspan fill="#e4e4e7"> whoami</tspan></text>
     <text x="20" y="88" fill="#27c93f">&gt; Hariharan S — Founder @ Skyrovix</text>
@@ -66,11 +79,9 @@
     </text>
   </g>
 </svg>
-
 </td>
 <td width="47%" valign="top">
-
-<svg width="100%" height="340" viewBox="0 0 390 340" style="max-width:390px">
+<svg width="390" height="340" viewBox="0 0 390 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="ring-accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF2E97"/><stop offset="100%" stop-color="#05D9E8"/>
@@ -81,7 +92,6 @@
 
   <text x="24" y="40" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#f4f5f7">Current Focus</text>
 
-  <!-- ring 1: Skyrovix 95% -->
   <g transform="translate(70,110)">
     <circle r="42" fill="none" stroke="#1f2340" stroke-width="8"/>
     <circle r="42" fill="none" stroke="#BD00FF" stroke-width="8" stroke-linecap="round" transform="rotate(-90)"
@@ -92,7 +102,6 @@
   </g>
   <text x="70" y="172" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#a7a9be" text-anchor="middle">Skyrovix</text>
 
-  <!-- ring 2: React/FullStack 85% -->
   <g transform="translate(195,110)">
     <circle r="42" fill="none" stroke="#1f2340" stroke-width="8"/>
     <circle r="42" fill="none" stroke="#FF2E97" stroke-width="8" stroke-linecap="round" transform="rotate(-90)"
@@ -103,7 +112,6 @@
   </g>
   <text x="195" y="172" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#a7a9be" text-anchor="middle">Full Stack</text>
 
-  <!-- ring 3: AI apps 70% -->
   <g transform="translate(320,110)">
     <circle r="42" fill="none" stroke="#1f2340" stroke-width="8"/>
     <circle r="42" fill="none" stroke="#05D9E8" stroke-width="8" stroke-linecap="round" transform="rotate(-90)"
@@ -118,146 +126,80 @@
 
   <text x="24" y="228" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f4f5f7">Let's Connect</text>
 
-  <a href="https://skyrovix.online">
-    <rect x="24" y="242" width="165" height="34" rx="9" fill="#BD00FF" opacity="0.14" stroke="#BD00FF" stroke-width="1"/>
-    <text x="106" y="264" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#e0b3ff" text-anchor="middle" font-weight="600">Website</text>
-  </a>
-  <a href="mailto:hariharanmahesh34@gmail.com">
-    <rect x="199" y="242" width="165" height="34" rx="9" fill="#FF2E97" opacity="0.14" stroke="#FF2E97" stroke-width="1"/>
-    <text x="281" y="264" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#ff9bc4" text-anchor="middle" font-weight="600">Email</text>
-  </a>
+  <rect x="24" y="242" width="165" height="34" rx="9" fill="#BD00FF" opacity="0.14" stroke="#BD00FF" stroke-width="1"/>
+  <text x="106" y="264" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#e0b3ff" text-anchor="middle" font-weight="600">Website</text>
+
+  <rect x="199" y="242" width="165" height="34" rx="9" fill="#FF2E97" opacity="0.14" stroke="#FF2E97" stroke-width="1"/>
+  <text x="281" y="264" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#ff9bc4" text-anchor="middle" font-weight="600">Email</text>
 
   <text x="24" y="308" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b5f7a">Open to collabs &amp; open-source</text>
 </svg>
-
 </td>
 </tr>
 </table>
 
 <br/>
 
-<!-- ============ MINI STAT TILES ============ -->
-<table align="center">
-<tr>
-<td width="33%">
-
-<svg width="100%" height="90" viewBox="0 0 280 90" style="max-width:280px">
+<div align="center">
+<svg width="860" height="90" viewBox="0 0 860 90" xmlns="http://www.w3.org/2000/svg">
   <rect x="1" y="1" width="278" height="88" rx="12" fill="#0a0e27" stroke="#2a2f4c" stroke-width="1"/>
   <rect x="1" y="1" width="5" height="88" rx="2.5" fill="#BD00FF"/>
   <text x="24" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098">🚀 Building</text>
   <text x="24" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#e0b3ff">Skyrovix</text>
+
+  <rect x="291" y="1" width="278" height="88" rx="12" fill="#0a0e27" stroke="#2a2f4c" stroke-width="1"/>
+  <rect x="291" y="1" width="5" height="88" rx="2.5" fill="#FF2E97"/>
+  <text x="314" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098">📚 Learning</text>
+  <text x="314" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#ff9bc4">AI-powered apps</text>
+
+  <rect x="581" y="1" width="278" height="88" rx="12" fill="#0a0e27" stroke="#2a2f4c" stroke-width="1"/>
+  <rect x="581" y="1" width="5" height="88" rx="2.5" fill="#05D9E8"/>
+  <text x="604" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098">🤝 Open to</text>
+  <text x="604" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#7fe9f2">Collab &amp; OSS</text>
 </svg>
-
-</td>
-<td width="33%">
-
-<svg width="100%" height="90" viewBox="0 0 280 90" style="max-width:280px">
-  <rect x="1" y="1" width="278" height="88" rx="12" fill="#0a0e27" stroke="#2a2f4c" stroke-width="1"/>
-  <rect x="1" y="1" width="5" height="88" rx="2.5" fill="#FF2E97"/>
-  <text x="24" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098">📚 Learning</text>
-  <text x="24" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#ff9bc4">AI-powered apps</text>
-</svg>
-
-</td>
-<td width="33%">
-
-<svg width="100%" height="90" viewBox="0 0 280 90" style="max-width:280px">
-  <rect x="1" y="1" width="278" height="88" rx="12" fill="#0a0e27" stroke="#2a2f4c" stroke-width="1"/>
-  <rect x="1" y="1" width="5" height="88" rx="2.5" fill="#05D9E8"/>
-  <text x="24" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098">🤝 Open to</text>
-  <text x="24" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#7fe9f2">Collab &amp; OSS</text>
-</svg>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ============ TECH STACK ============ -->
-<div align="center">
-
-<svg width="100%" height="60" viewBox="0 0 900 60" style="max-width:900px">
-  <defs>
-    <linearGradient id="sec-line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#BD00FF"/><stop offset="100%" stop-color="#05D9E8"/>
-    </linearGradient>
-  </defs>
-  <line x1="30" y1="30" x2="360" y2="30" stroke="url(#sec-line)" stroke-width="1.2" opacity="0.6"/>
-  <text x="450" y="27" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#f4f5f7" text-anchor="middle">Tech Stack</text>
-  <text x="450" y="45" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098" text-anchor="middle">Technologies I work with daily</text>
-  <line x1="540" y1="30" x2="870" y2="30" stroke="url(#sec-line)" stroke-width="1.2" opacity="0.6"/>
-</svg>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,nodejs,express,python,supabase,mysql,git,github,vscode,figma,postman&theme=dark&perline=9"/>
-
 </div>
 
 <br/>
 
-<!-- ============ STATS ============ -->
 <div align="center">
+<h2>🛠️ Tech Stack</h2>
+<sub>Technologies I work with daily</sub>
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,nodejs,express,python,supabase,mysql,git,github,vscode,figma,postman&theme=dark&perline=9"/>
+</div>
 
-<svg width="100%" height="60" viewBox="0 0 900 60" style="max-width:900px">
-  <line x1="30" y1="30" x2="360" y2="30" stroke="url(#sec-line)" stroke-width="1.2" opacity="0.6"/>
-  <text x="450" y="27" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" fill="#f4f5f7" text-anchor="middle">GitHub Analytics</text>
-  <text x="450" y="45" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#7c8098" text-anchor="middle">Stats &amp; streaks from my activity</text>
-  <line x1="540" y1="30" x2="870" y2="30" stroke="url(#sec-line)" stroke-width="1.2" opacity="0.6"/>
-</svg>
+<br/>
 
+<div align="center">
+<h2>📊 GitHub Analytics</h2>
+<sub>Stats &amp; streaks from my activity</sub>
+<br/><br/>
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=hariharan1022&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&border_color=1f2340&border_radius=12&bg_color=0A0E27&title_color=05D9E8&text_color=E4E4E7&icon_color=FF2E97&ring_color=BD00FF"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hariharan1022&layout=compact&hide_border=false&border_color=1f2340&border_radius=12&bg_color=0A0E27&title_color=BD00FF&text_color=E4E4E7&langs_count=6"/>
-
 <br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hariharan1022&hide_border=false&border=1f2340&border_radius=12&background=0A0E27&stroke=2a2f4c&ring=FF2E97&fire=05D9E8&currStreakLabel=BD00FF&sideLabels=E4E4E7&dates=7c8098"/>
-
 </div>
 
 <br/>
 
-<!-- ============ ACHIEVEMENTS + ACTIVITY ============ -->
 <table align="center">
 <tr>
 <td width="50%" valign="top" align="center">
-
-<svg width="100%" height="46" viewBox="0 0 420 46" style="max-width:420px">
-  <text x="210" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#f4f5f7" text-anchor="middle">🏆&#160; Achievements</text>
-</svg>
+<h3>🏆 Achievements</h3>
 <img src="https://github-profile-trophy.vercel.app/?username=hariharan1022&theme=onedark&no-frame=true&column=4&margin-w=15&margin-h=15"/>
-
 </td>
 <td width="50%" valign="top" align="center">
-
-<svg width="100%" height="46" viewBox="0 0 420 46" style="max-width:420px">
-  <text x="210" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#f4f5f7" text-anchor="middle">📈&#160; Activity Graph</text>
-</svg>
+<h3>📈 Activity Graph</h3>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hariharan1022&hide_border=true&bg_color=0A0E27&color=05D9E8&line=BD00FF&point=FF2E97&area=true"/>
-
 </td>
 </tr>
 </table>
 
 <br/>
 
-<!-- ============ SNAKE CONTRIBUTION ANIMATION ============ -->
-<div align="center">
-
-<svg width="100%" height="46" viewBox="0 0 900 46" style="max-width:900px">
-  <text x="450" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#f4f5f7" text-anchor="middle">🐍&#160; Contribution Snake</text>
-</svg>
-
-<img src="https://raw.githubusercontent.com/hariharan1022/hariharan1022/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
-
-<br/><sub><i>Enable this by adding the included <code>snake.yml</code> workflow to <code>.github/workflows/</code> in your <code>hariharan1022/hariharan1022</code> repo — it auto-generates and animates your contribution grid.</i></sub>
-
-</div>
-
-<br/>
-
-<!-- ============ FOOTER ============ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&animation=fadeIn&color=0:05D9E8,50:FF2E97,100:BD00FF"/>
+<div align="center"><sub><code>&lt;/&gt; crafted with care by Hariharan S</code></sub></div>
 
-<div align="center">
-<sub><code>&lt;/&gt; crafted with care by Hariharan S</code></sub>
 </div>
+</body>
+</html>
